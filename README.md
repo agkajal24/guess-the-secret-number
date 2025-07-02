@@ -15,7 +15,7 @@ A fun number guessing game made with **JavaScript**, **HTML**, and **CSS** to sh
 - JavaScript
 
 ## 🔗 Live Demo
-[Play Now](https://your-live-link.com)
+[Play Now](https://agkajal24.github.io/guess-the-secret-number/)
 
 ## 📁 How to Run
 1. Clone this repo
