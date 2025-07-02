@@ -25,22 +25,22 @@ if(playGame)
 function validGuess(guess){
     if(isNaN(guess))
     {
-        alert('plz enter valid number');
+        alert('please, Enter valid number');
     }
     else if(guess > 100)
     {
-        alert('plz enter less than 100 number');
+        alert('please, Enter less than 100 number');
     }
     else if(guess < 1)
     {
-        alert('plz enter more than 1 number');
+        alert('please, Enter more than 1 number');
     }
     else{
         prevGuess.push(guess);
         if(numGuess === 11)
         {
             CleanUp(guess);
-            dispalyMessage(`Game Over. RandomNumber is ${randomNum}`);
+            dispalyMessage(`Game Over. Random Number is ${randomNum}`);
             endGame();
         }
         else{
@@ -54,10 +54,10 @@ function validGuess(guess){
 // comapre with randomNumber
 function checkGuess(guess){
     if(guess > randomNum){
-        dispalyMessage(`number is TOO High`);
+        dispalyMessage(`Number is TOO HIGH`);
     }
     else if(guess < randomNum){
-        dispalyMessage(`number is TOO Low`);
+        dispalyMessage(`Number is TOO LOW`);
     }
     else if(guess === randomNum){
         dispalyMessage(`You are RIGHT`);
